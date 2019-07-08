@@ -1,5 +1,6 @@
 package com.assignment;
 
+//Task 3: Regular Expressions
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +9,8 @@ public class Task3_RegularExpressions {
 		List<String> error = new ArrayList<String>();
 		List<String> input = new ArrayList<String>();
 
-		input.add("17000 EUR");
+//		input.add("17000 EUR");
+		input.add("1 EUR");
 		input.add("1700 EUR");
 //		input.add("£17000 EURO");
 //		input.add("ABCDE EUR");
@@ -27,7 +29,7 @@ public class Task3_RegularExpressions {
 			}
 		}
 		for(String obj: error){
-			System.out.println("Values that cannot be matched : "+ obj);
+			System.out.println("Unmatched values : "+ obj);
 		}
 		
 	}
