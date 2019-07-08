@@ -7,7 +7,7 @@ import java.time.*;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
 
-public class OldestPerson { 
+public class Question2_OldestPerson { 
 	
 	public long calculateAge(int year,int month,int day){
 	       // date of birth
@@ -89,7 +89,7 @@ public class OldestPerson {
 	
 public static void main(String[] args){
 	Map<String, Long> map1 = new HashMap<String, Long>();//Creating arraylist 
-	   OldestPerson obj = new OldestPerson();
+	Question2_OldestPerson obj = new Question2_OldestPerson();
 	   map1=obj.retrieveDateField();
 //	   System.out.println("Result "+obj.calculateAge(94, 4, 10));
 	   

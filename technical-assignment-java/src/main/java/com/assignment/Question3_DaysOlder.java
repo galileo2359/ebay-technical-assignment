@@ -10,7 +10,7 @@ import java.time.temporal.ChronoUnit;
 import java.util.HashMap;
 import java.util.Map;
 
-public class DaysOlder {
+public class Question3_DaysOlder {
 	
 	public long calculateAge(int year,int month,int day){
 	       // date of birth
@@ -59,7 +59,7 @@ public class DaysOlder {
 	
     public static void main(String[] args) {
     	//Map<String, Long> map1 = new HashMap<String, Long>();//Creating arraylist 
-    	DaysOlder obj = new DaysOlder();
+    	Question3_DaysOlder obj = new Question3_DaysOlder();
     	
  	   	long age1=obj.retrieveDateField("Bill McKnight");
  		long age2=obj.retrieveDateField("Paul Robinson");

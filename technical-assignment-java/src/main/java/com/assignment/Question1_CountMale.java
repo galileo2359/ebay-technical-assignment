@@ -6,7 +6,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class CountMale {
+public class Question1_CountMale {
 
 	private String field;
 
@@ -52,7 +52,7 @@ public class CountMale {
 	    public static void main(String[] args) {
 	    
 	    	
-	    	CountMale obj = new CountMale();
+	    	Question1_CountMale obj = new Question1_CountMale();
 	    	obj.setField("Male");
 	    	
 	    	System.out.println("The total number of "+obj.countField());
