@@ -66,6 +66,6 @@ public class Task1_Question3 {
  	   	
  	   	//Bill McKnight  Paul Robinson
  		
- 		System.out.println("The age difference is :"+(age1-age2));
+ 		System.out.println("THE AGE DIFFERENCE IS : "+(age1-age2)+" DAYS");
     }
 }

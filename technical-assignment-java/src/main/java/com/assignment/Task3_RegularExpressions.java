@@ -10,8 +10,8 @@ public class Task3_RegularExpressions {
 
 		input.add("17000 EUR");
 		input.add("1700 EUR");
-		input.add("£17000 EURO");
-		input.add("ABCDE EUR");
+//		input.add("£17000 EURO");
+//		input.add("ABCDE EUR");
 		input.add("0,85 EUR");
 
 

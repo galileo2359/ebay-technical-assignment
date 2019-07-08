@@ -55,7 +55,7 @@ public class Task1_Question1 {
 	    	Task1_Question1 obj = new Task1_Question1();
 	    	obj.setField("Male");
 	    	
-	    	System.out.println("The total number of "+obj.countField());
+	    	System.out.println("TOTAL NUMBER OF MALES : "+obj.countField());
 
 	    }
 

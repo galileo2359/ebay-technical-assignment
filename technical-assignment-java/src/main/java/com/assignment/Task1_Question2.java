@@ -51,18 +51,6 @@ public class Task1_Question2 {
      return map1;
 	}
 	
-	public Map<String, Long> compareAge(Map<String, Long> map1){
-		//Map<String, String> map1 = new HashMap<String, String>();
-		  for (Map.Entry<String, Long> entry : map1.entrySet()) {
-			//	System.out.println("Name :"+entry.getKey()+"\tDate :"+entry.getValue());
-			  
-				
-				//if(entry.getValue()==)
-			}
-		
-		return map1;
-	}
-	
 	public HashMap<String, Long> sortByValue(Map<String, Long> map1) 
     { 
         // Create a list from elements of HashMap 
@@ -99,11 +87,11 @@ public static void main(String[] args){
 	   Map<String, Long> hm1 = obj.sortByValue(map1); 
 	
 	   
-	   
+	   int count=1;
 	  for (Map.Entry<String, Long> entry : hm1.entrySet()) {
-			System.out.println("Name :"+entry.getKey()+"\tDate :"+entry.getValue());
-			
-			//if(entry.getValue()==)
+			if(hm1.size()==count)
+				System.out.println("ADDRESS BOOK'S OLDEST PERSON : "+entry.getKey());
+			count = count + 1;
 		}
 	   //System.out.println("The total number of "+list.countField());
 	   
