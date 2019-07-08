@@ -33,7 +33,7 @@ public class Task1_Question3 {
 		} catch (IOException e) {
 			System.err.format("IOException: %s%n", e);
 		}
-     return age;
+		return age;
 	}
 	
 	public static void main(String[] args) {
