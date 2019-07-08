@@ -32,7 +32,8 @@ public class Task1_Question2 {
 			while ((line = br.readLine()) != null) {
 				String arr[] = line.split(","); 
 
-				age = calculateAge(Integer.parseInt(arr[2].substring(7, 9)), Integer.parseInt(arr[2].substring(4, 6)), 
+				age = calculateAge(Integer.parseInt(arr[2].substring(7, 9)), 
+						Integer.parseInt(arr[2].substring(4, 6)), 
 						Integer.parseInt(arr[2].substring(1, 3)));
 				map1.put(arr[0], age);          
 			}

@@ -26,7 +26,8 @@ public class Task1_Question3 {
 				String arr[] = line.split(","); 
 
 				if(arr[0].equals(name)){
-					age = Task1_Question2.calculateAge(Integer.parseInt(arr[2].substring(7, 9)), Integer.parseInt(arr[2].substring(4, 6)), 
+					age = Task1_Question2.calculateAge(Integer.parseInt(arr[2].substring(7, 9)), 
+							Integer.parseInt(arr[2].substring(4, 6)), 
 							Integer.parseInt(arr[2].substring(1, 3)));
 				}        
 			}
